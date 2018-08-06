@@ -1,7 +1,27 @@
 # BadgeForAppIcon
+
+[![](https://jitpack.io/v/whytot/BadgeForAppIcon.svg)](https://jitpack.io/#whytot/BadgeForAppIcon)</br>
+
 The unread badges of the android launcher icon.
 
 ### 1  Add BadgeForAppIcon to your project
+
+#### 1.1  gradle
+
+Step 1. Add the JitPack repository to your build file
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.whytot:BadgeForAppIcon:0.0.1'
+	}
 
 ### 2  Support List
 
