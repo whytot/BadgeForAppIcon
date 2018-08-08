@@ -20,7 +20,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.whytot:BadgeForAppIcon:v1.0.0-beta.1'
+	        implementation 'com.github.whytot:BadgeForAppIcon:v1.0.0-beta.2'
 	}
 	
 ### 2  How to use
@@ -38,9 +38,13 @@ Step 2. Add the dependency
 
 #### 3.1 	Huawei (Support)
 
+Launcher : com.huawei.android.launcher
+
 https://developer.huawei.com/consumer/cn/devservice/doc/30802</br>
 
 #### 3.2 	Xiaomi (Support *)
+
+Launcher : com.miui.home
 
 https://dev.mi.com/console/doc/detail?pId=939</br>
 *:  Notifications must be sent simultaneously, but the Numbers can be customized.</br>
@@ -51,6 +55,7 @@ https://dev.mi.com/console/doc/detail?pId=939</br>
 
 *:  Support , but need apply</br>
 Please contact the customer service staff on the OPPO developer platform by yourself. He will explain how to apply for this function.
+*:  I am currently in the application stage. If I succeed, I will update this method.
 
 #### 3.4 	VIVO(Not Support)
 
@@ -59,11 +64,15 @@ This feature must be specifically supported by VIVO.</br>
 
 #### 3.5 	Samsung (Support *)
 
+Launcher : com.sec.android.app.launcher
+
 *:  Support, but no official statement </br>
 
 #### 3.6 	Meizu(Not Support)
 
 #### 3.7 	Google(Support *)
+
+Launcher : com.google.android.apps.nexuslauncher pixel 2(Pixel Launcher)
 
 https://developer.android.com/training/notify-user/badges</br>
 *:  Support(Starting with 8.0 (API level 26)),but the number cannot be displayed on the corner mark, and you need to press the icon for a long time.</br>
