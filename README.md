@@ -54,8 +54,8 @@ https://dev.mi.com/console/doc/detail?pId=939</br>
 #### 3.3 	OPPO (Support *)
 
 *:  Support , but need apply</br>
-Please contact the customer service staff on the OPPO developer platform by yourself. He will explain how to apply for this function.
-*:  I am currently in the application stage. If I succeed, I will update this method.
+Please contact the customer service staff on the OPPO developer platform by yourself. He will explain how to apply for this function.</br>
+<font color='red'>*:  I am currently in the application stage. If I succeed, I will update this method.</font></br>
 
 #### 3.4 	VIVO(Not Support)
 
