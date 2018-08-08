@@ -5,8 +5,6 @@ import android.app.Notification;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 
-import static com.tot.badges.Utils.UNABLE_TO_RESOLVE_INTENT_ERROR_;
-
 /**
  *
  */
@@ -23,11 +21,11 @@ public class GoogleModelImpl implements IconBadgeNumModel {
         intent.putExtra("badge_count_package_name", context.getPackageName());
         intent.putExtra("badge_count_class_name", Utils.getInstance().getLaunchIntentForPackage(context)); // com.test. badge.MainActivity is your apk main activity
 
-        if (Utils.getInstance().canResolveBroadcast(context, intent)) {
+//        if (Utils.getInstance().canResolveBroadcast(context, intent)) {
             context.sendBroadcast(intent);
-        } else {
-            throw new Exception(UNABLE_TO_RESOLVE_INTENT_ERROR_ + intent.toString());
-        }
+//        } else {
+//            throw new Exception(UNABLE_TO_RESOLVE_INTENT_ERROR_ + intent.toString());
+//        }
 
         return notification;
     }

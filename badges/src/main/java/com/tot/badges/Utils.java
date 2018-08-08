@@ -24,6 +24,7 @@ public class Utils {
         List<ResolveInfo> receivers = packageManager.queryBroadcastReceivers(intent, 0);
         return receivers != null && receivers.size() > 0;
     }
+
     public String getLaunchIntentForPackage(Context context) {
         return context.getPackageManager().getLaunchIntentForPackage(context.getPackageName()).getComponent().getClassName();
     }

@@ -18,9 +18,6 @@ public class SamsungModelImpl implements IconBadgeNumModel {
 
     @Override
     public Notification setIconBadgeNum(@NonNull Application context, Notification notification, int count) throws Exception {
-//        if (false) {
-//            throw new Exception(NOTIFICATION_ERROR);
-//        }
         Intent intent = new Intent("android.intent.action.BADGE_COUNT_UPDATE");
         intent.putExtra("badge_count", count);
         intent.putExtra("badge_count_package_name", context.getPackageName());

@@ -1,5 +1,6 @@
 package com.tot.badges;
 
+@Deprecated
 public class MobileBrand {
     public final static String GOOGLE = "google";
     public final static String HUAWEI = "huawei";
