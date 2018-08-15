@@ -48,7 +48,7 @@ Launcher : com.miui.home
 
 https://dev.mi.com/console/doc/detail?pId=939</br>
 *:  Notifications must be sent simultaneously, but the Numbers can be customized.</br>
-*:  When app have been open, the indicator disappears.</br>
+*:  When app have been open, the indicator disappears.(So when the app is in the foreground, you can't see badge)</br>
 *:  Only for MIUI6-10.</br>
 
 #### 3.3 	OPPO (Support *)
